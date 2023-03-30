@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import './cart.css';
 import { ShopContext } from "../../context/shop-context";
 
 export const CartItem = (props) => {
@@ -7,14 +8,14 @@ export const CartItem = (props) => {
     useContext(ShopContext);
 
   return (
-    <div className="cartItem">
+    <div className="cartItem" style={{ backgroundColor: props.color }}>
       <img src={productImage} />
       <div className="description">
         <p>
           <b>{productName}</b>
         </p>
         <p> Price: ${price}</p>
-        <div className="countHandler">
+        <div className="countHandler" style= {{ backgroundColor: "black" }}>
           <button onClick={() => removeFromCart(id)}> - </button>
           <input
             value={cartItems[id]}

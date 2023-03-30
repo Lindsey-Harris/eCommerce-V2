@@ -1,4 +1,3 @@
-
 import React, { useContext } from "react";
 import { ShopContext } from "../../context/shop-context";
 import { PRODUCTS } from "../../components/products";
@@ -20,7 +19,7 @@ export const Cart = () => {
       <div className="cart">
         {PRODUCTS.map((product) => {
           if (cartItems[product.id] !== 0) {
-            return <CartItem data={product} />;
+            return <CartItem data={product} color="yellow" />;
           }
         })}
       </div>
