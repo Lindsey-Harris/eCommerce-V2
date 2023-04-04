@@ -1,17 +1,20 @@
-import ReactDOM from "react-dom";
+import React, { useState, useEffect } from 'react';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import { Shop } from "./pages/shop/shop"; //products.jsx
+import { Shop } from "./pages/shop/shop"; 
 import { Cart } from "./pages/cart/cart";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { ShopContextProvider } from "./context/shop-context";
+import ReactDOM from "react-dom";
 
-export default function App() {
+
+
+function App() {
   return (
     <div className="Index">
       <ShopContextProvider>
@@ -35,3 +38,6 @@ export default function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
+
+
+

@@ -1,7 +1,7 @@
 import React from "react";
 import { PRODUCTS } from '../../components/products';
 import { Product } from './product';
-import './shop.css';
+import './product.css';
 
 export const Shop = () => {
   return (
@@ -12,4 +12,3 @@ export const Shop = () => {
     </div>
   )   
 }
-

@@ -24,7 +24,7 @@
   display: inline;
 }
 
-.slide-container {
+ .slide-container {
   background-color: black;
   width: 850px;
   height: 850px;
@@ -165,7 +165,7 @@ button {
 
 button:hover {
   background-color: white;
-}
+} 
 
 
 

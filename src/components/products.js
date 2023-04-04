@@ -87,3 +87,4 @@ export const PRODUCTS = [
         productImage: product12,
     }
 ]
+

@@ -1,5 +1,5 @@
 import React from "react";
-import '../components/footer.css';
+import '../styles/footer.css';
 import fbLogo from '../images/FB Logo.webp';
 import twitterLogo from '../images/twitter logo.png';
 import instaLogo from '../images/insta logo.webp';

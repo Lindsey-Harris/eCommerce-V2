@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import '../components/navbar.css';
+import '../styles/navbar.css';
 import '../pages/cart/cart-icon.css';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import { ShoppingCart } from 'phosphor-react';
