@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+  font-size: 180%;
+  font-family: cursive;
+}
+
+/* image container */
+.products {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "photoOne photoTwo photoThree" "photoFour photoFive photoSix" "photoSeven photoEight photoNine" "photoTen photoEleven photoTwelve";
+}
+
+/* description and price  */
+.product {
+  background-color: black;
+  color: yellow;
+  display: grid;
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin-bottom: 150px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  height: 325px;
+  width: 275px;
+  border: 2px solid black;
+  border-radius: 100px;
+  border: 2px solid yellow;
+}
+
+.product .description {
+  text-align: center;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1300px) and (min-width: 360px) {
+  h1 {
+    text-align: left;
+  }
+  .slide-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contained p {
+    font-size: 100%;
+    margin-left: 60%;
+    text-align: left;
+    margin-top: 60%;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product {
+    margin: 20px;
+    margin-bottom: 120px;
+    padding: 10px;
+  }
+}
+
+.checkout p {
+  color: yellow;
+}
+
+@media screen and (max-width: 850px) and (min-width: 350px) {
+  input[type="text"] {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    font-size: 40px;
+    font-family: cursive;
+    cursor: context-menu;
+  }
+}
