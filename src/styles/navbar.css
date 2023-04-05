@@ -157,10 +157,11 @@ button {
   background-color: yellow;
   font-weight: bold;
   font-family: fantasy;
-  font-size: medium;
+  font-size: small;
   border-radius: 80px;
   cursor: grab;
   transition-duration: 0.3s;
+  margin-top: -15px;
 }
 
 button:hover {

@@ -18,6 +18,7 @@ export const PRODUCTS = [
     {
         id: 1,
         productName: "Wireless Charging Station",
+        description: "Convient Wireless Charging Station!",
         price: 23.89,
         productImage: product1,
         productType: "Charging Station"
@@ -25,6 +26,7 @@ export const PRODUCTS = [
     {
         id: 2,
         productName: "Tripod",
+        description: "Take the best pictures of your life!",
         price: 25.99,
         productImage: product2,
         productType: "Electronics"
@@ -33,6 +35,7 @@ export const PRODUCTS = [
     {
         id: 3,
         productName: "Wireless Charging Station",
+        description: "Convient Wireless Charging Station!",
         price: 28.89,
         productImage: product3,
         productType: "Charging Station"
@@ -40,6 +43,7 @@ export const PRODUCTS = [
     {
         id: 4,
         productName: "Phone Car Mount",
+        description: "Best phone mount on the market!",
         price: 18.99,
         productImage: product4,
         productType: "Car Phone Mounts"
@@ -48,6 +52,7 @@ export const PRODUCTS = [
     {
         id: 5,
         productName: "New Bee Earpiece",
+        description: "Bluetooth earpiece is out of this world!",
         price: 17.99,
         productImage: product5,
         productType: "Electronics"
@@ -56,6 +61,7 @@ export const PRODUCTS = [
     {
         id: 6,
         productName: "Phone Car Mount",
+        description: "Best phone mount on the market!",
         price: 24.99,
         productImage: product6,
         productType: "Car Phone Mounts"
@@ -65,6 +71,7 @@ export const PRODUCTS = [
     {
         id: 7,
         productName: "Pinkish-Red Apple Watch",
+        description: "21st Century Apple Watch",
         price: 345.51,
         productImage: product7,
         productType: "Apple Watches"
@@ -73,6 +80,7 @@ export const PRODUCTS = [
     {
         id: 8,
         productName: "Orange Apple Watch",
+        description: "21st Century Apple Watch",
         price: 749.99,
         productImage: product8,
         productType: "Apple Watches"
@@ -81,6 +89,7 @@ export const PRODUCTS = [
     {
         id: 9,
         productName: "Black Apple Watch",
+        description: "21st Century Apple Watch",
         price: 188.01,
         productImage: product9,
         productType: "Apple Watches"
@@ -89,6 +98,7 @@ export const PRODUCTS = [
     {
         id: 10,
         productName: "Apple Watch Band",
+        description: "Great gift idea!",
         price: 8.99,
         productImage: product10,
         productType: "Apple Watch Bands"
@@ -97,6 +107,7 @@ export const PRODUCTS = [
     {
         id: 11,
         productName: "Apple Watch Band",
+        description: "Great gift idea!",
         price: 16.99,
         productImage: product11,
         productType: "Apple Watch Bands"
@@ -105,6 +116,7 @@ export const PRODUCTS = [
     {
         id: 12,
         productName: "Women's Apple Watch Band",
+        description: "Great gift idea!",
         price: 15.99,
         productImage: product12,
         productType: "Apple Watch Bands"
