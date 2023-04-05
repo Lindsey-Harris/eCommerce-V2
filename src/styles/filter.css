@@ -1,0 +1,48 @@
+.filter-box {
+  height: 270px;
+  width: 250px;
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-box label {
+  height: 40px;
+  color: yellow;
+  background-color: black;
+}
+
+.filter-box input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.search-box {
+  max-width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.search-box:focus {
+  outline: none;
+  border-color: yellow;
+  box-shadow: 0px 0px 8px rgba(141, 178, 229, 0.8);
+}
+
+input[type="tex"] {
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 700px;
+  height: 40px;
+  color: darkgrey;
+  font-size: 20px;
+  font-family: cursive;
+  cursor: context-menu;
+}
+
+.search-box::placeholder {
+  color: yellow;
+}

@@ -32,7 +32,15 @@ app.get("/products", (req, res) => {
         console.log(err);
         return res.json(err);
       }
-      return res.json(data);
+      const products = data.map((product) => {
+        return {
+          id: product.id,
+          productName: product.name,
+          price: product.price,
+          productImage: `../images/${product.image_url}`,
+        };
+      });
+      return res.json(products);
     });
   });
 

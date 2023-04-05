@@ -13,78 +13,102 @@ import product12 from '../images/apple-band12.jpg';
 
 
 
+
 export const PRODUCTS = [
     {
         id: 1,
         productName: "Wireless Charging Station",
         price: 23.89,
         productImage: product1,
+        productType: "Charging Station"
     },
     {
         id: 2,
         productName: "Tripod",
         price: 25.99,
         productImage: product2,
+        productType: "Electronics"
+
     },
     {
         id: 3,
         productName: "Wireless Charging Station",
         price: 28.89,
         productImage: product3,
+        productType: "Charging Station"
     },
     {
         id: 4,
         productName: "Phone Car Mount",
         price: 18.99,
         productImage: product4,
+        productType: "Car Phone Mounts"
+
     },
     {
         id: 5,
         productName: "New Bee Earpiece",
         price: 17.99,
         productImage: product5,
+        productType: "Electronics"
+
     },
     {
         id: 6,
         productName: "Phone Car Mount",
         price: 24.99,
         productImage: product6,
+        productType: "Car Phone Mounts"
+
+
     },
     {
         id: 7,
         productName: "Pinkish-Red Apple Watch",
         price: 345.51,
         productImage: product7,
+        productType: "Apple Watches"
+
     },
     {
         id: 8,
         productName: "Orange Apple Watch",
         price: 749.99,
         productImage: product8,
+        productType: "Apple Watches"
+
     },
     {
         id: 9,
         productName: "Black Apple Watch",
         price: 188.01,
         productImage: product9,
+        productType: "Apple Watches"
+
     },
     {
         id: 10,
         productName: "Apple Watch Band",
         price: 8.99,
         productImage: product10,
+        productType: "Apple Watch Bands"
+
     },
     {
         id: 11,
         productName: "Apple Watch Band",
         price: 16.99,
         productImage: product11,
+        productType: "Apple Watch Bands"
+
     },
     {
         id: 12,
         productName: "Women's Apple Watch Band",
         price: 15.99,
         productImage: product12,
+        productType: "Apple Watch Bands"
+
     }
 ]
 
